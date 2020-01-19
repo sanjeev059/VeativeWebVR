@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file=".py" name="Test-20200119153130" skipped="0" tests="12" time="52.512" timestamp="2020-01-19T15:32:25">
+	<testcase classname="Test" file="vaeative_unit.py" line="65" name="test_Introduction_to_Complex_Numbers" time="4.178" timestamp="2020-01-19T15:31:37">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="117" name="test_Line_and_Plane_of_Symmetry" time="3.210" timestamp="2020-01-19T15:31:40">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="91" name="test_Opaque_Translucent_and_Transparent" time="3.319" timestamp="2020-01-19T15:31:44">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="78" name="test_Reproductive_Parts_of_a_Flower" time="3.629" timestamp="2020-01-19T15:31:47">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="104" name="test_Series_and_Parallel_Circuits" time="3.346" timestamp="2020-01-19T15:31:50">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="41" name="test_avatar_monkey" time="3.111" timestamp="2020-01-19T15:31:54">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="53" name="test_avatar_snake" time="4.008" timestamp="2020-01-19T15:31:58">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="143" name="test_humun_brain" time="3.891" timestamp="2020-01-19T15:32:01">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="130" name="test_lines" time="3.961" timestamp="2020-01-19T15:32:05">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="155" name="test_login_form_validations" time="13.579" timestamp="2020-01-19T15:32:19">
+		<system-out>
+<![CDATA[logged in successfully
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="29" name="test_structure_of_phenol_boy" time="3.015" timestamp="2020-01-19T15:32:22">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="vaeative_unit.py" line="17" name="test_structure_of_phenol_girl" time="3.265" timestamp="2020-01-19T15:32:25">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
