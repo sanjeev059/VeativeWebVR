@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test-20200124143006" tests="1" file=".py" time="16.155" timestamp="2020-01-24T14:30:26" failures="0" errors="0" skipped="0">
-	<testcase classname="Test" name="test_componet_structure_validations" time="16.155" timestamp="2020-01-24T14:30:26" file="unittests\vaeative_unit.py" line="224">
-		<system-out><![CDATA[]]></system-out>
-		<system-err><![CDATA[]]></system-err>
-	</testcase>
-</testsuite>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test-20200124142753" tests="1" file=".py" time="26.489" timestamp="2020-01-24T14:28:23" failures="0" errors="0" skipped="0">
-	<testcase classname="Test" name="test_login_form_validations" time="26.489" timestamp="2020-01-24T14:28:23" file="unittests\unity.py" line="17">
-		<system-out><![CDATA[logged in successfully
-]]></system-out>
-		<system-err><![CDATA[]]></system-err>
-	</testcase>
-</testsuite>

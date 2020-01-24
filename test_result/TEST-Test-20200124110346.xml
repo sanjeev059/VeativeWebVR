@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test-20200124110346" tests="1" file=".py" time="5.724" timestamp="2020-01-24T11:03:54" failures="0" errors="0" skipped="0">
-	<testcase classname="Test" name="test_signup_form_validations" time="5.724" timestamp="2020-01-24T11:03:54" file="unittests\vaeative_unit.py" line="174">
-		<system-out><![CDATA[signup in successfully
-]]></system-out>
-		<system-err><![CDATA[]]></system-err>
-	</testcase>
-</testsuite>
