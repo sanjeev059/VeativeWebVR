@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test-20200124111119" tests="1" file=".py" time="6.355" timestamp="2020-01-24T11:11:28" failures="0" errors="1" skipped="0">
+	<testcase classname="Test" name="test_signup_form_validations" time="6.355" timestamp="2020-01-24T11:11:28" file="unittests\vaeative_unit.py" line="184">
+		<error type="AttributeError" message="'str' object has no attribute 'text'"><![CDATA[Traceback (most recent call last):
+  File "c:/Users/srdesai/VeativeWebVR/unittests/vaeative_unit.py", line 219, in test_signup_form_validations
+    text_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(captura.text))
+  File "C:\Users\srdesai\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "c:/Users/srdesai/VeativeWebVR/unittests/vaeative_unit.py", line 219, in <lambda>
+    text_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(captura.text))
+AttributeError: 'str' object has no attribute 'text'
+]]></error>
+		<system-out><![CDATA[]]></system-out>
+		<system-err><![CDATA[]]></system-err>
+	</testcase>
+</testsuite>

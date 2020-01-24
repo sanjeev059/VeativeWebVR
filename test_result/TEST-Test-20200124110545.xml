@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test-20200124110545" tests="2" file=".py" time="11.278" timestamp="2020-01-24T11:05:59" failures="0" errors="1" skipped="0">
+	<testcase classname="Test" name="test_signup_tag_validations" time="5.395" timestamp="2020-01-24T11:05:59" file="unittests\vaeative_unit.py" line="174">
+		<system-out><![CDATA[]]></system-out>
+		<system-err><![CDATA[]]></system-err>
+	</testcase>
+	<testcase classname="Test" name="test_signup_form_validations" time="5.882" timestamp="2020-01-24T11:05:53" file="unittests\vaeative_unit.py" line="184">
+		<error type="ElementNotInteractableException" message="Message: element not interactable
+  (Session info: chrome=79.0.3945.130)
+"><![CDATA[Traceback (most recent call last):
+  File "c:/Users/srdesai/VeativeWebVR/unittests/vaeative_unit.py", line 210, in test_signup_form_validations
+    passwd_element.send_keys("sanjeev.amar@gmail.com")
+  File "C:\Users\srdesai\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 477, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT,
+  File "C:\Users\srdesai\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\srdesai\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\srdesai\AppData\Local\Programs\Python\Python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=79.0.3945.130)
+
+]]></error>
+		<system-out><![CDATA[]]></system-out>
+		<system-err><![CDATA[]]></system-err>
+	</testcase>
+</testsuite>

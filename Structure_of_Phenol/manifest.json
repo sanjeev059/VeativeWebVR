@@ -1,14 +1,27 @@
-{
-  "name" :"Structure of phenol",
-  "description" : "This app helps you donate to worthy causes.",
-  "icons" : [{
-    "src":  "icon.png",
-    "sizes":  "192x192"
-  }],
-
-  "start_url": "physics.html",
-  "background_color": "#3367D6",
-  "display": "fullscreen",
-  "short_name":"SS200049",
-  "theme_color": "#3367D6"
+pipeline {
+    agent any 
+    stages { 
+        stage('Sync Repo') { 
+            steps { 
+			echo'clone'
+                //git credentialsId: '082ab731-04ac-44c5-9b6e-9ff2d22a6f42', url: 'https://github.com/sanjeev059/VeativeWebVR.git'
+            }
+        }
+        stage('Build') { 
+            steps { 
+             echo "build in progress for project ..!!!"
+            }
+        }
+        stage('Test') { 
+            steps { 
+                 //bat 'python VeativeWebVR\unittests\vaeative_unit.py'
+            }
+        }
+        stage('Report') { 
+            steps {
+                // 7
+                 echo "hello"
+            }
+        }
+    }
 }
