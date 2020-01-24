@@ -26,6 +26,7 @@ class Test(unittest.TestCase):
         element.select_by_value("Monkey")
         self.driver.find_element_by_id("submitBtn").click()
         
+        
     def test_structure_of_phenol_boy(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Structure_of_Phenol/login.html')
@@ -170,6 +171,7 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
         print("logged in successfully")
+        return 0
         
     def test_signup_tag_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -180,6 +182,7 @@ class Test(unittest.TestCase):
         
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
+        return 0
     
     def test_signup_form_validations(self):
         
@@ -218,6 +221,7 @@ class Test(unittest.TestCase):
         passwd_element.send_keys("male")
         sign_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(signup_btn))
         sign_element.click()
+        return 0
         
         print("signup in successfully")
         
@@ -238,10 +242,12 @@ class Test(unittest.TestCase):
         passwd_element.send_keys("admin1234")
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
+        
 
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms300035/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_structurePhonel_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -264,6 +270,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ss200049/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_complexNumbers_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -286,6 +293,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs300012/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_Reproduct_part_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -308,6 +316,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms100027/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_OpaqueT_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -330,6 +339,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs400052/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_series_parallel_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -352,6 +362,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs400034/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_atomic_model_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -374,6 +385,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs200040/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_Galv_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -396,6 +408,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs400060/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_Dominent_recessive_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -418,6 +431,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms100176/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_lines_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -440,6 +454,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms300045/')
         self.driver.implicitly_wait(20)
+        return 0
         
         
     def test_componet_dot_structure_validations(self):
@@ -463,6 +478,7 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs200069/')
         self.driver.implicitly_wait(20)
+        return 0
     
     def test_componet_Humun_brain_validations(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
@@ -485,14 +501,15 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms100057/')
         self.driver.implicitly_wait(20)
+        return 0
         
     
         
-    @classmethod
-    def tearDownClass(cls):
-        cls.driver.close()
-        cls.driver.quit()
-        print("Test completed..!!")
+    # @classmethod
+    # def tearDownClass(cls):
+    #     cls.driver.close()
+    #     cls.driver.quit()
+    #     print("Test completed..!!")
         
 
             
