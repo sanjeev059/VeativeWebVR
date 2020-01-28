@@ -528,7 +528,7 @@ class Test(unittest.TestCase):
         self.driver.implicitly_wait(20)
         return 0
     
-     def test_impact_analysis_launch(self):
+    def test_impact_analysis_launch(self):
         self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
         self.driver.implicitly_wait(10)
