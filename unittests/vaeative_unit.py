@@ -502,6 +502,68 @@ class Test(unittest.TestCase):
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms100057/')
         self.driver.implicitly_wait(20)
         return 0
+    
+    
+    def test_impact_analysis_activity_info(self):
+        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
+        self.driver.implicitly_wait(10)
+        loginurl = '//a[contains(text(),\'Login\')]'
+        username = '//input[@id=\'unicef_username\']'
+        passwd = '//input[@id=\'unicef_password\']'
+        loginbtn = '//input[@id=\'login-btn\']'
+        clicable = '//div[contains(text(),\'In phenol, hydroxy functional group is directly at\')]'     
+        loginelement = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginurl))
+        loginelement.click()
+        user_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(username))
+        user_element.send_keys("sanjeev")
+        passwd_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(passwd))
+        passwd_element.send_keys("admin1234")
+        btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
+        btn_element.click()
+        
+
+        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms300035/')
+        self.driver.implicitly_wait(20)
+        return 0
+    
+     def test_impact_analysis_launch(self):
+        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
+        self.driver.implicitly_wait(10)
+    
+        print("impact analysis logged successfully..")
+    
+    def test_impact_analysis_AI(self):
+        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
+        self.driver.implicitly_wait(10)
+        
+        
+        activity_path = '//a[contains(text(),\'Activity Information\')]'
+        loginelement = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(activity_path))
+        loginelement.click()
+    
+    def test_impact_analysis_socre_by_module(self):
+        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
+        self.driver.implicitly_wait(10)
+        
+        
+        activity_path = '//a[contains(text(),\'Score By Module\')]'
+        loginelement = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(activity_path))
+        loginelement.click()
+    
+    def test_impact_analysis_module_attempted(self):
+        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
+        self.driver.implicitly_wait(10)
+        
+        
+        activity_path = '//a[contains(text(),\'Modules Attempted\')]'
+        loginelement = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(activity_path))
+        loginelement.click()
         
     
         
