@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file=".py" name="Test-20200204141410" skipped="0" tests="1" time="13.324" timestamp="2020-02-04T14:14:25">
+	<testcase classname="Test" file="unittests\unity.py" line="17" name="test_login_form_validations" time="13.324" timestamp="2020-02-04T14:14:25">
+		<system-out>
+<![CDATA[logged in successfully
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
