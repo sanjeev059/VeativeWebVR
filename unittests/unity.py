@@ -47,5 +47,5 @@ class Test(unittest.TestCase):
 
             
 if __name__ == "__main__":
-    # unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='example_dir'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='html_report'))
     unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test_result'))
