@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="unittest/suite.py" name="unittest.suite._ErrorHolder-20200211112410" skipped="0" tests="1" time="0.000" timestamp="0001-01-01T00:00:00">
+	<testcase classname="setUpClass (__main__" name="Test)" time="0.000" timestamp="0001-01-01T00:00:00">
+		<error message="Message: invalid argument
+  (Session info: chrome=80.0.3987.87)
+" type="InvalidArgumentException">
+<![CDATA[Traceback (most recent call last):
+  File ".\unittests\vaeative_unit.py", line 14, in setUpClass
+    cls.driver.get('VeativeWebVR/Structure_of_Phenol/login.html')
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=80.0.3987.87)
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

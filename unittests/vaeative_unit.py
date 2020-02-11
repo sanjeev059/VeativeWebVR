@@ -10,152 +10,152 @@ class Test(unittest.TestCase):
     
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        cls.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Structure_of_Phenol/login.html')
+        cls.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+        # cls.driver.get('VeativeWebVR/Structure_of_Phenol/login.html')
         cls.driver.implicitly_wait(10)
     
-    def test_structure_of_phenol_girl(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Structure_of_Phenol/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Radikha")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Girl")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Monkey")
-        self.driver.find_element_by_id("submitBtn").click()
+    # def test_structure_of_phenol_girl(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('Structure_of_Phenol/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Radikha")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Girl")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Monkey")
+    #     self.driver.find_element_by_id("submitBtn").click()
         
         
-    def test_structure_of_phenol_boy(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Structure_of_Phenol/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Monkey")
-        self.driver.find_element_by_id("submitBtn").click()
+    # def test_structure_of_phenol_boy(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('Structure_of_Phenol/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Monkey")
+    #     self.driver.find_element_by_id("submitBtn").click()
         
-    def test_avatar_monkey(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Structure_of_Phenol/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Monkey")
-        self.driver.find_element_by_id("submitBtn").click()
+    # def test_avatar_monkey(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('Structure_of_Phenol/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Monkey")
+    #     self.driver.find_element_by_id("submitBtn").click()
     
-    def test_avatar_snake(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Structure_of_Phenol/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
+    # def test_avatar_snake(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Structure_of_Phenol/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
         
-    def test_Introduction_to_Complex_Numbers(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Introduction_to_Complex_Numbers/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
-        pass
+    # def test_Introduction_to_Complex_Numbers(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Introduction_to_Complex_Numbers/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
+    #     pass
     
-    def test_Reproductive_Parts_of_a_Flower(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Reproductive_Parts_of_a_Flower/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
-        pass
+    # def test_Reproductive_Parts_of_a_Flower(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Reproductive_Parts_of_a_Flower/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
+    #     pass
     
-    def test_Opaque_Translucent_and_Transparent(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Opaque_Translucent_and_Transparent/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
-        pass
+    # def test_Opaque_Translucent_and_Transparent(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Opaque_Translucent_and_Transparent/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
+    #     pass
     
-    def test_Series_and_Parallel_Circuits(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Series_and_Parallel_Circuits/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
-        pass
+    # def test_Series_and_Parallel_Circuits(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Series_and_Parallel_Circuits/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
+    #     pass
     
-    def test_Line_and_Plane_of_Symmetry(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Line_and_Plane_of_Symmetry/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
-        pass
+    # def test_Line_and_Plane_of_Symmetry(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Line_and_Plane_of_Symmetry/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
+    #     pass
     
-    def test_lines(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Lines/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
-        pass
+    # def test_lines(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Lines/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
+    #     pass
     
-    def test_humun_brain(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
-        self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Human_Brain/login.html')
-        self.driver.implicitly_wait(10)
-        self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
-        self.driver.find_element_by_id("age").send_keys("25")
-        element = Select(self.driver.find_element_by_name('gender'))
-        element.select_by_value("Boy")
-        element = Select(self.driver.find_element_by_name('avatar'))
-        element.select_by_value("Snake")
-        self.driver.find_element_by_id("submitBtn").click()
-        pass
+    # def test_humun_brain(self):
+    #     self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
+    #     self.driver.get('file:///C:/Users/srdesai/VeativeWebVR/Human_Brain/login.html')
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.find_element_by_id("username").send_keys("Sanjeev Desai")
+    #     self.driver.find_element_by_id("age").send_keys("25")
+    #     element = Select(self.driver.find_element_by_name('gender'))
+    #     element.select_by_value("Boy")
+    #     element = Select(self.driver.find_element_by_name('avatar'))
+    #     element.select_by_value("Snake")
+    #     self.driver.find_element_by_id("submitBtn").click()
+    #     pass
     
     def test_login_form_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -174,7 +174,7 @@ class Test(unittest.TestCase):
         return 0
         
     def test_signup_tag_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         
@@ -186,7 +186,7 @@ class Test(unittest.TestCase):
     
     def test_signup_form_validations(self):
         
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         
@@ -226,7 +226,7 @@ class Test(unittest.TestCase):
         print("signup in successfully")
         
     def test_componet_lineandplain_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -244,13 +244,13 @@ class Test(unittest.TestCase):
         btn_element.click()
         
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms300035/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_structurePhonel_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -267,13 +267,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ss200049/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_complexNumbers_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -290,13 +290,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs300012/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_Reproduct_part_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -313,13 +313,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms100027/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_OpaqueT_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -336,13 +336,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs400052/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_series_parallel_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -359,13 +359,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs400034/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_atomic_model_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -382,13 +382,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs200040/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_Galv_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -405,13 +405,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs400060/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_Dominent_recessive_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -428,13 +428,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms100176/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_lines_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -451,14 +451,14 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms300045/')
         self.driver.implicitly_wait(20)
         return 0
         
         
     def test_componet_dot_structure_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -475,13 +475,13 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/hs200069/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_componet_Humun_brain_validations(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/')
         self.driver.implicitly_wait(10)
         loginurl = '//a[contains(text(),\'Login\')]'
@@ -498,26 +498,26 @@ class Test(unittest.TestCase):
         btn_element = WebDriverWait(self.driver,10).until(lambda driver:self.driver.find_element_by_xpath(loginbtn))
         btn_element.click()
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms100057/')
         self.driver.implicitly_wait(20)
         return 0
         
 
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/WebVR/Aframe/ms300035/')
         self.driver.implicitly_wait(20)
         return 0
     
     def test_impact_analysis_launch(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
         self.driver.implicitly_wait(10)
     
         print("impact analysis logged successfully..")
     
     def test_impact_analysis_AI(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
         self.driver.implicitly_wait(10)
         
@@ -527,7 +527,7 @@ class Test(unittest.TestCase):
         loginelement.click()
     
     def test_impact_analysis_socre_by_module(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
         self.driver.implicitly_wait(10)
         
@@ -537,7 +537,7 @@ class Test(unittest.TestCase):
         loginelement.click()
     
     def test_impact_analysis_module_attempted(self):
-        self.driver = webdriver.Chrome(executable_path="C:\chromedriver_win32\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver_win32/chromedriver.exe")
         self.driver.get('http://ec2-52-5-117-32.compute-1.amazonaws.com/unicef/public/report')
         self.driver.implicitly_wait(10)
         

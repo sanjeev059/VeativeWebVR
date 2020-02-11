@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file=".py" name="Test-20200211112846" skipped="0" tests="19" time="508.077" timestamp="2020-02-11T11:37:17">
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="413" name="test_componet_Dominent_recessive_validations" time="31.127" timestamp="2020-02-11T11:29:20">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="390" name="test_componet_Galv_validations" time="30.004" timestamp="2020-02-11T11:29:50">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="483" name="test_componet_Humun_brain_validations" time="34.387" timestamp="2020-02-11T11:30:24">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="321" name="test_componet_OpaqueT_validations" time="40.340" timestamp="2020-02-11T11:31:04">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="298" name="test_componet_Reproduct_part_validations" time="61.943" timestamp="2020-02-11T11:32:06">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="367" name="test_componet_atomic_model_validations" time="30.865" timestamp="2020-02-11T11:32:37">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="275" name="test_componet_complexNumbers_validations" time="38.361" timestamp="2020-02-11T11:33:16">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="460" name="test_componet_dot_structure_validations" time="46.217" timestamp="2020-02-11T11:34:02">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="228" name="test_componet_lineandplain_validations" time="42.206" timestamp="2020-02-11T11:34:44">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="436" name="test_componet_lines_validations" time="22.909" timestamp="2020-02-11T11:35:07">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="344" name="test_componet_series_parallel_validations" time="23.433" timestamp="2020-02-11T11:35:30">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="252" name="test_componet_structurePhonel_validations" time="24.217" timestamp="2020-02-11T11:35:55">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="519" name="test_impact_analysis_AI" time="14.182" timestamp="2020-02-11T11:36:09">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="512" name="test_impact_analysis_launch" time="8.317" timestamp="2020-02-11T11:36:17">
+		<system-out>
+<![CDATA[impact analysis logged successfully..
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="539" name="test_impact_analysis_module_attempted" time="15.932" timestamp="2020-02-11T11:36:33">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="529" name="test_impact_analysis_socre_by_module" time="10.097" timestamp="2020-02-11T11:36:43">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="157" name="test_login_form_validations" time="11.606" timestamp="2020-02-11T11:36:55">
+		<system-out>
+<![CDATA[logged in successfully
+]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="187" name="test_signup_form_validations" time="13.665" timestamp="2020-02-11T11:37:08">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="Test" file="unittests\vaeative_unit.py" line="176" name="test_signup_tag_validations" time="8.269" timestamp="2020-02-11T11:37:17">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

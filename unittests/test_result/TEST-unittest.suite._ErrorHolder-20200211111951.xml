@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="unittest/suite.py" name="unittest.suite._ErrorHolder-20200211111951" skipped="0" tests="1" time="0.000" timestamp="0001-01-01T00:00:00">
+	<testcase classname="setUpClass (__main__" name="Test)" time="0.000" timestamp="0001-01-01T00:00:00">
+		<error message="Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+" type="WebDriverException">
+<![CDATA[Traceback (most recent call last):
+  File "vaeative_unit.py", line 13, in setUpClass
+    cls.driver = webdriver.Chrome(executable_path="chromedriver_win32\chromedriver.exe")
+  File "C:\Python27\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 73, in __init__
+    self.service.start()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\common\service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
