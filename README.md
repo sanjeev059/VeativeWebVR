@@ -5,6 +5,9 @@ Gaining real-life experience in certain professions can be difficult to achieve,
 ## Status
 
 [![Build Status](http://localhost:8080/buildStatus/icon?job=VeativeWebVR)](http://localhost:8080/job/VeativeWebVR/)
+
+
+[![Build Status](http://localhost:8080/job/VeativeWebVR/badge/icon)](http://localhost:8080/job/VeativeWebVR/)
 ## Technology Used
 
 Framework : A-Frame
