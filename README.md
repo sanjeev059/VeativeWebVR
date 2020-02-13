@@ -3,6 +3,7 @@ Gaining real-life experience in certain professions can be difficult to achieve,
 
 ![VeativeWebVR](https://media.giphy.com/media/VdbiKH5MFUknO8s8SM/giphy.gif)
 ## Status
+* [![Build Status](http://localhost:8080/buildStatus/icon?job=VeativeWebVR)](http://localhost:8080/job/VeativeWebVR/)
 http://localhost:8080/buildStatus/icon?job=VeativeWebVR
 ## Technology Used
 
